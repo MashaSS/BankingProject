@@ -20,7 +20,7 @@ class AccountPage(BasePage):
 
     def make_transaction(self, amount, transaction_type="Deposit"):
         self.click_button(transaction_type)
-        time.sleep(0.5) # TODO
+        time.sleep(0.5)
         input = self.choose_input("amount")
         self.input_text(input, amount)
 
