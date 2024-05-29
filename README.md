@@ -26,5 +26,5 @@ python .\tests\BankingProjectTests.py -s -v --alluredir=allure/
 ```
 6. To see the allure report
 ```commandline
-allure serve .\test\allure\ 
+allure serve .\tests\allure\ 
 ```
